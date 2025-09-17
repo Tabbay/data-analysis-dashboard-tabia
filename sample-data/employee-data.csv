@@ -1,0 +1,26 @@
+ID,Name,Age,Department,Salary,Years_Experience,Performance_Rating,Location,Education_Level
+1,John Smith,28,Engineering,75000,5,4.2,San Francisco,Masters
+2,Sarah Johnson,32,Marketing,68000,8,4.5,New York,Bachelors
+3,Mike Chen,25,Engineering,72000,3,4.0,San Francisco,Bachelors
+4,Emily Davis,29,Sales,65000,6,4.7,Chicago,Bachelors
+5,David Wilson,35,Finance,82000,10,4.3,New York,Masters
+6,Lisa Brown,27,HR,58000,4,4.1,Chicago,Bachelors
+7,James Miller,31,Engineering,78000,7,4.6,San Francisco,Masters
+8,Anna Garcia,26,Marketing,61000,3,3.9,Los Angeles,Bachelors
+9,Robert Taylor,33,Sales,71000,9,4.4,Chicago,Bachelors
+10,Jessica Lee,30,Finance,76000,6,4.2,New York,Masters
+11,Kevin Anderson,24,Engineering,69000,2,3.8,San Francisco,Bachelors
+12,Rachel White,28,HR,62000,5,4.0,Los Angeles,Masters
+13,Daniel Martinez,36,Sales,73000,12,4.8,Chicago,Bachelors
+14,Amy Thomas,27,Marketing,64000,4,4.1,New York,Bachelors
+15,Christopher Moore,34,Finance,85000,11,4.5,New York,Masters
+16,Nicole Jackson,25,Engineering,71000,3,3.9,San Francisco,Bachelors
+17,Brandon Clark,29,Sales,67000,6,4.3,Los Angeles,Bachelors
+18,Stephanie Lewis,31,HR,65000,8,4.2,Chicago,Masters
+19,Ryan Walker,26,Marketing,59000,3,3.7,Los Angeles,Bachelors
+20,Jennifer Hall,32,Finance,79000,9,4.6,New York,Masters
+21,Andrew Young,28,Engineering,74000,5,4.1,San Francisco,Bachelors
+22,Michelle King,30,Sales,68000,7,4.4,Chicago,Masters
+23,Tyler Wright,27,Marketing,62000,4,3.8,New York,Bachelors
+24,Kimberly Lopez,29,HR,61000,6,4.0,Los Angeles,Bachelors
+25,Jonathan Hill,35,Finance,88000,13,4.7,New York,Masters

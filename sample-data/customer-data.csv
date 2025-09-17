@@ -1,0 +1,26 @@
+User_ID,Age,Gender,Income,Education,Spending_Score,Brand_Preference,Purchase_Frequency,Online_Shopping,Social_Media_Hours
+1,23,F,35000,Bachelors,72,Nike,Weekly,Yes,4.2
+2,35,M,65000,Masters,45,Adidas,Monthly,No,2.1
+3,28,F,48000,Bachelors,68,Apple,Bi-weekly,Yes,5.8
+4,42,M,85000,Masters,38,Samsung,Monthly,Yes,1.5
+5,31,F,52000,Bachelors,75,Nike,Weekly,Yes,6.2
+6,26,M,38000,High School,82,PlayStation,Daily,Yes,7.5
+7,39,F,72000,Masters,41,Starbucks,Weekly,No,2.8
+8,33,M,59000,Bachelors,63,Apple,Bi-weekly,Yes,3.9
+9,25,F,41000,Bachelors,79,Zara,Weekly,Yes,6.8
+10,45,M,95000,PhD,35,BMW,Quarterly,No,1.2
+11,29,F,46000,Bachelors,71,Netflix,Monthly,Yes,5.1
+12,37,M,68000,Masters,48,Microsoft,Monthly,Yes,2.5
+13,24,F,32000,High School,85,TikTok,Daily,Yes,8.2
+14,41,M,78000,Masters,42,Tesla,Yearly,Yes,1.8
+15,30,F,55000,Bachelors,67,Amazon,Weekly,Yes,4.7
+16,27,M,43000,Bachelors,76,Spotify,Monthly,Yes,6.3
+17,36,F,61000,Masters,51,Google,Bi-weekly,Yes,3.2
+18,32,M,57000,Bachelors,69,Uber,Weekly,Yes,4.1
+19,26,F,39000,Bachelors,78,Instagram,Daily,Yes,7.9
+20,44,M,89000,Masters,39,Mercedes,Quarterly,No,1.6
+21,28,F,47000,Bachelors,73,H&M,Weekly,Yes,5.5
+22,34,M,63000,Masters,52,Sony,Monthly,Yes,2.9
+23,25,F,36000,High School,81,YouTube,Daily,Yes,8.5
+24,38,M,71000,Masters,46,Oracle,Monthly,Yes,2.2
+25,31,F,49000,Bachelors,74,Disney,Bi-weekly,Yes,4.8

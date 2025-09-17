@@ -1,0 +1,31 @@
+Date,Product,Category,Revenue,Units_Sold,Customer_Segment,Region
+2024-01-15,Laptop Pro X1,Electronics,1299.99,5,Business,North
+2024-01-16,Office Chair Deluxe,Furniture,459.99,12,Business,South
+2024-01-17,Wireless Headphones,Electronics,199.99,25,Consumer,East
+2024-01-18,Standing Desk,Furniture,799.99,8,Business,West
+2024-01-19,Smartphone Ultra,Electronics,899.99,15,Consumer,North
+2024-01-20,Coffee Maker Pro,Appliances,129.99,20,Consumer,South
+2024-01-21,Monitor 4K,Electronics,549.99,10,Business,East
+2024-01-22,Ergonomic Keyboard,Electronics,89.99,30,Business,West
+2024-01-23,Bookshelf Modern,Furniture,299.99,6,Consumer,North
+2024-01-24,Air Purifier,Appliances,249.99,18,Consumer,South
+2024-01-25,Tablet Pro,Electronics,699.99,12,Consumer,East
+2024-01-26,Desk Lamp LED,Furniture,79.99,22,Business,West
+2024-01-27,Gaming Mouse,Electronics,59.99,35,Consumer,North
+2024-01-28,Vacuum Robot,Appliances,399.99,14,Consumer,South
+2024-01-29,Conference Table,Furniture,1199.99,3,Business,East
+2024-01-30,Webcam HD,Electronics,149.99,28,Business,West
+2024-02-01,Storage Cabinet,Furniture,349.99,9,Business,North
+2024-02-02,Bluetooth Speaker,Electronics,79.99,40,Consumer,South
+2024-02-03,Microwave Smart,Appliances,189.99,16,Consumer,East
+2024-02-04,Office Plant,Furniture,29.99,25,Business,West
+2024-02-05,Printer Laser,Electronics,299.99,7,Business,North
+2024-02-06,Blender Pro,Appliances,159.99,19,Consumer,South
+2024-02-07,Gaming Chair,Furniture,649.99,11,Consumer,East
+2024-02-08,Smart Watch,Electronics,349.99,22,Consumer,West
+2024-02-09,Desk Organizer,Furniture,49.99,33,Business,North
+2024-02-10,Toaster Smart,Appliances,99.99,24,Consumer,South
+2024-02-11,External Drive,Electronics,119.99,26,Business,East
+2024-02-12,Floor Lamp,Furniture,179.99,15,Consumer,West
+2024-02-13,Sound Bar,Electronics,199.99,18,Consumer,North
+2024-02-14,Food Processor,Appliances,219.99,13,Consumer,South
