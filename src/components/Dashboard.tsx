@@ -1,5 +1,3 @@
-export default Dashboard;
-
 // ==========================================
 // 📊 WEEK 4+: Dashboard.tsx - Main Data Visualization Component
 // ==========================================
@@ -33,7 +31,7 @@ interface DashboardProps {
   onReset: () => void;
 }
 
-const Dashboard = ({ data, fileName, onReset }: DashboardProps) => {
+export const Dashboard = ({ data, fileName, onReset }: DashboardProps) => {
   // 🧠 Dashboard state management
   const [activeTab, setActiveTab] = useState('overview');
   

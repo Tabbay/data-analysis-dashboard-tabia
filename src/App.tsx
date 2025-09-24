@@ -1,4 +1,3 @@
-export default App;
 // ==========================================
 // 🎯 WEEK 1: App.tsx - Main Application Setup
 // ==========================================
@@ -20,7 +19,7 @@ import LiveSession from "./pages/LiveSession"; // 🎮 Live session playground
 const queryClient = new QueryClient();
 
 // 🚀 Main App Component - This wraps your entire application
-const App = () => (
+export const App = () => (
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>
       {/* These Toaster components handle popup notifications */}
