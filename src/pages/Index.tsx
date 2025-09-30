@@ -19,6 +19,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import DataUpload from '@/components/DataUpload';
 import Dashboard from '@/components/Dashboard';
 import { DataRow } from '@/types/data';
+import UploadProgressSimulator from '@/components/UploadProgressSim';
 
 // 🔧 WEEK 2: Import your UploadProgressSimulator component here
 // 🔧 WEEK 3+: Additional imports will be added as you progress
@@ -57,6 +58,10 @@ const Index = () => {
             Upload your dataset and instantly discover insights, visualize trends, and explore your data with interactive charts and analytics.
           </p>
           <p className='text-lg text-slate-500 max-w-2xl mx-auto'> By tabia </p>
+        </div>
+
+        <div className="mb-8">
+          <UploadProgressSimulator />
         </div>
 
         {/* 🔧 WEEK 2: ADD YOUR PROGRESS COMPONENT HERE! */}
