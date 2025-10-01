@@ -14,12 +14,18 @@ import Index from "./pages/Index";      // 🏠 Homepage component
 import NotFound from "./pages/NotFound"; // 🚫 404 error page
 import DemoCounter from "./pages/DemoCounter"; // 🎓 Instructor demo page
 import LiveSession from "./pages/LiveSession"; // 🎮 Live session playground
+import Week3Live from "./pages/Week3Live"; // 🎯 Week 3 interactive components playground
 
 // Create a client for managing data queries (don't worry about this yet!)
 const queryClient = new QueryClient();
 
 // 🚀 Main App Component - This wraps your entire application
+<<<<<<< HEAD
 export const App = () => (
+=======
+function App() {
+  return (
+>>>>>>> upstream/main
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>
       {/* These Toaster components handle popup notifications */}
@@ -38,7 +44,10 @@ export const App = () => (
           {/* 🎮 Live session playground - interactive React examples */}
           <Route path="/live-session" element={<LiveSession />} />
           
-          {/* 🔧 WEEK 2+: Add new routes here as you build more pages */}
+          {/* 🎯 Week 3 live playground - interactive components & user input */}
+          <Route path="/week3-live" element={<Week3Live />} />
+          
+          {/* �🔧 WEEK 2+: Add new routes here as you build more pages */}
           {/* Example: <Route path="/dashboard" element={<Dashboard />} /> */}
           
           {/* ⚠️ Catch-all route - shows 404 for unknown URLs */}
@@ -47,6 +56,7 @@ export const App = () => (
       </BrowserRouter>
     </TooltipProvider>
   </QueryClientProvider>
-);
+  );
+}
 
 export default App;

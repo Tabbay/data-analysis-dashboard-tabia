@@ -815,3 +815,57 @@ After completing this practice assignment, you will have:
 **Next Week Preview**: We'll use these exact event handling patterns to build interactive data tables! You'll add click-to-sort headers, search-as-you-type functionality, and dynamic filtering - all building on the event handling skills you practiced this week. 🚀
 
 *Week 2 Guide - Updated September 2025*
+
+---
+
+## Event Handling: See It In Action!
+
+You can experiment with this example in your app to see how `handleChange`, `e`, and `e.target.value` work:
+
+```jsx
+import { useState } from "react";
+
+function HandleChangeDemo() {
+  const [name, setName] = useState("");
+  const [log, setLog] = useState("");
+
+  const handleChange = (e) => {
+    setLog(
+      `Event: ${JSON.stringify(e.type)} | Target: ${e.target.tagName} | Value: ${e.target.value}`
+    );
+    setName(e.target.value);
+  };
+
+  return (
+    <div style={{ maxWidth: 400, margin: "2rem auto", padding: 20, border: "1px solid #ccc" }}>
+      <label htmlFor="nameInput">Type your name:</label>
+      <input
+        id="nameInput"
+        type="text"
+        value={name}
+        onChange={handleChange}
+        onFocus={() => setLog("Input focused!")}
+        onBlur={() => setLog("Input blurred!")}
+        style={{ marginLeft: 8 }}
+      />
+      <p>Hello, {name || "stranger"}!</p>
+      <pre style={{ background: "#f9f9f9", padding: 10 }}>{log}</pre>
+    </div>
+  );
+}
+```
+
+### What is `e` and `e.target.value`?
+- `e` is the event object React gives your handler. It contains info about what happened.
+- `e.target` is the DOM element that triggered the event (here, the input).
+- `e.target.value` is the current value of the input field.
+
+**Try typing in the box above and watch the log update!**
+
+### What does `onFocus` do?
+- `onFocus` fires when the input is selected (clicked or tabbed into).
+- You can use it to show hints, highlight, or start validation.
+
+**This demo also logs when the input is focused or blurred.**
+
+---

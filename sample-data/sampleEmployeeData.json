@@ -1,0 +1,502 @@
+[
+  {
+    "id": 1,
+    "name": "Alice Johnson",
+    "email": "alice.johnson@company.com",
+    "department": "Engineering",
+    "salary": 95000,
+    "joinDate": "2022-01-15",
+    "active": true,
+    "skills": ["React", "TypeScript", "Node.js", "PostgreSQL"]
+  },
+  {
+    "id": 2,
+    "name": "Bob Smith",
+    "email": "bob.smith@company.com",
+    "department": "Sales",
+    "salary": 72000,
+    "joinDate": "2021-08-22",
+    "active": true,
+    "skills": ["Salesforce", "Customer Relations", "Negotiation"]
+  },
+  {
+    "id": 3,
+    "name": "Carol Williams",
+    "email": "carol.williams@company.com",
+    "department": "Marketing",
+    "salary": 68000,
+    "joinDate": "2023-03-10",
+    "active": true,
+    "skills": ["Digital Marketing", "SEO", "Content Strategy", "Analytics"]
+  },
+  {
+    "id": 4,
+    "name": "David Brown",
+    "email": "david.brown@company.com",
+    "department": "HR",
+    "salary": 65000,
+    "joinDate": "2020-11-05",
+    "active": false,
+    "skills": ["Recruitment", "Performance Management", "Employee Relations"]
+  },
+  {
+    "id": 5,
+    "name": "Emma Davis",
+    "email": "emma.davis@company.com",
+    "department": "Engineering",
+    "salary": 88000,
+    "joinDate": "2022-06-18",
+    "active": true,
+    "skills": ["Python", "Machine Learning", "Data Analysis", "AWS"]
+  },
+  {
+    "id": 6,
+    "name": "Frank Miller",
+    "email": "frank.miller@company.com",
+    "department": "Finance",
+    "salary": 78000,
+    "joinDate": "2021-12-03",
+    "active": true,
+    "skills": ["Financial Analysis", "Excel", "Budgeting", "Risk Management"]
+  },
+  {
+    "id": 7,
+    "name": "Grace Wilson",
+    "email": "grace.wilson@company.com",
+    "department": "Design",
+    "salary": 71000,
+    "joinDate": "2023-01-25",
+    "active": true,
+    "skills": ["UI/UX Design", "Figma", "Prototyping", "User Research"]
+  },
+  {
+    "id": 8,
+    "name": "Henry Taylor",
+    "email": "henry.taylor@company.com",
+    "department": "Engineering",
+    "salary": 102000,
+    "joinDate": "2019-09-14",
+    "active": true,
+    "skills": ["JavaScript", "React", "Vue.js", "Docker", "Kubernetes"]
+  },
+  {
+    "id": 9,
+    "name": "Isabella Martinez",
+    "email": "isabella.martinez@company.com",
+    "department": "Sales",
+    "salary": 69000,
+    "joinDate": "2022-04-07",
+    "active": true,
+    "skills": ["B2B Sales", "CRM Management", "Lead Generation"]
+  },
+  {
+    "id": 10,
+    "name": "Jack Anderson",
+    "email": "jack.anderson@company.com",
+    "department": "Marketing",
+    "salary": 73000,
+    "joinDate": "2021-10-30",
+    "active": true,
+    "skills": ["Social Media", "Brand Management", "Campaign Development"]
+  },
+  {
+    "id": 11,
+    "name": "Karen Thompson",
+    "email": "karen.thompson@company.com",
+    "department": "Operations",
+    "salary": 67000,
+    "joinDate": "2022-02-14",
+    "active": true,
+    "skills": ["Process Improvement", "Project Management", "Lean Six Sigma"]
+  },
+  {
+    "id": 12,
+    "name": "Liam Garcia",
+    "email": "liam.garcia@company.com",
+    "department": "Engineering",
+    "salary": 91000,
+    "joinDate": "2023-05-08",
+    "active": true,
+    "skills": ["Java", "Spring Boot", "Microservices", "MongoDB"]
+  },
+  {
+    "id": 13,
+    "name": "Maya Rodriguez",
+    "email": "maya.rodriguez@company.com",
+    "department": "Design",
+    "salary": 74000,
+    "joinDate": "2020-12-16",
+    "active": true,
+    "skills": ["Graphic Design", "Adobe Creative Suite", "Branding"]
+  },
+  {
+    "id": 14,
+    "name": "Noah Lee",
+    "email": "noah.lee@company.com",
+    "department": "Finance",
+    "salary": 81000,
+    "joinDate": "2021-07-23",
+    "active": true,
+    "skills": ["Accounting", "Tax Planning", "Financial Reporting", "QuickBooks"]
+  },
+  {
+    "id": 15,
+    "name": "Olivia White",
+    "email": "olivia.white@company.com",
+    "department": "HR",
+    "salary": 63000,
+    "joinDate": "2023-08-12",
+    "active": true,
+    "skills": ["HR Policies", "Training Development", "Compliance"]
+  },
+  {
+    "id": 16,
+    "name": "Paul Harris",
+    "email": "paul.harris@company.com",
+    "department": "Engineering",
+    "salary": 97000,
+    "joinDate": "2020-03-20",
+    "active": true,
+    "skills": ["C#", ".NET Core", "Azure", "SQL Server"]
+  },
+  {
+    "id": 17,
+    "name": "Quinn Clark",
+    "email": "quinn.clark@company.com",
+    "department": "Sales",
+    "salary": 76000,
+    "joinDate": "2022-09-05",
+    "active": false,
+    "skills": ["Enterprise Sales", "Account Management", "Consulting"]
+  },
+  {
+    "id": 18,
+    "name": "Rachel Lewis",
+    "email": "rachel.lewis@company.com",
+    "department": "Marketing",
+    "salary": 70000,
+    "joinDate": "2021-05-17",
+    "active": true,
+    "skills": ["Email Marketing", "Automation", "A/B Testing", "Conversion Optimization"]
+  },
+  {
+    "id": 19,
+    "name": "Samuel Walker",
+    "email": "samuel.walker@company.com",
+    "department": "Operations",
+    "salary": 72000,
+    "joinDate": "2022-11-28",
+    "active": true,
+    "skills": ["Supply Chain", "Inventory Management", "Logistics"]
+  },
+  {
+    "id": 20,
+    "name": "Tiffany Hall",
+    "email": "tiffany.hall@company.com",
+    "department": "Design",
+    "salary": 69000,
+    "joinDate": "2023-04-03",
+    "active": true,
+    "skills": ["Product Design", "Sketch", "InVision", "Design Systems"]
+  },
+  {
+    "id": 21,
+    "name": "Uma Young",
+    "email": "uma.young@company.com",
+    "department": "Engineering",
+    "salary": 86000,
+    "joinDate": "2021-01-11",
+    "active": true,
+    "skills": ["Go", "Docker", "Terraform", "DevOps"]
+  },
+  {
+    "id": 22,
+    "name": "Victor King",
+    "email": "victor.king@company.com",
+    "department": "Finance",
+    "salary": 85000,
+    "joinDate": "2020-08-07",
+    "active": true,
+    "skills": ["Investment Analysis", "Portfolio Management", "Bloomberg Terminal"]
+  },
+  {
+    "id": 23,
+    "name": "Wendy Wright",
+    "email": "wendy.wright@company.com",
+    "department": "HR",
+    "salary": 68000,
+    "joinDate": "2022-12-19",
+    "active": true,
+    "skills": ["Compensation Analysis", "Benefits Administration", "HRIS"]
+  },
+  {
+    "id": 24,
+    "name": "Xavier Lopez",
+    "email": "xavier.lopez@company.com",
+    "department": "Sales",
+    "salary": 74000,
+    "joinDate": "2023-02-28",
+    "active": true,
+    "skills": ["Territory Management", "Cold Calling", "Pipeline Management"]
+  },
+  {
+    "id": 25,
+    "name": "Yara Hill",
+    "email": "yara.hill@company.com",
+    "department": "Marketing",
+    "salary": 75000,
+    "joinDate": "2021-11-15",
+    "active": true,
+    "skills": ["Product Marketing", "Go-to-Market Strategy", "Competitive Analysis"]
+  },
+  {
+    "id": 26,
+    "name": "Zachary Green",
+    "email": "zachary.green@company.com",
+    "department": "Engineering",
+    "salary": 93000,
+    "joinDate": "2020-05-04",
+    "active": true,
+    "skills": ["Ruby", "Rails", "PostgreSQL", "Redis", "Sidekiq"]
+  },
+  {
+    "id": 27,
+    "name": "Amy Adams",
+    "email": "amy.adams@company.com",
+    "department": "Operations",
+    "salary": 71000,
+    "joinDate": "2022-07-12",
+    "active": false,
+    "skills": ["Quality Assurance", "Process Documentation", "Training"]
+  },
+  {
+    "id": 28,
+    "name": "Brian Baker",
+    "email": "brian.baker@company.com",
+    "department": "Design",
+    "salary": 73000,
+    "joinDate": "2023-06-21",
+    "active": true,
+    "skills": ["Motion Graphics", "After Effects", "Video Editing", "Animation"]
+  },
+  {
+    "id": 29,
+    "name": "Catherine Cooper",
+    "email": "catherine.cooper@company.com",
+    "department": "Finance",
+    "salary": 79000,
+    "joinDate": "2021-03-09",
+    "active": true,
+    "skills": ["Corporate Finance", "M&A Analysis", "Valuation", "Excel Modeling"]
+  },
+  {
+    "id": 30,
+    "name": "Daniel Rivera",
+    "email": "daniel.rivera@company.com",
+    "department": "Engineering",
+    "salary": 89000,
+    "joinDate": "2022-10-02",
+    "active": true,
+    "skills": ["PHP", "Laravel", "MySQL", "Vue.js", "API Development"]
+  },
+  {
+    "id": 31,
+    "name": "Elena Flores",
+    "email": "elena.flores@company.com",
+    "department": "HR",
+    "salary": 66000,
+    "joinDate": "2020-09-18",
+    "active": true,
+    "skills": ["Talent Acquisition", "Interviewing", "Onboarding", "ATS Systems"]
+  },
+  {
+    "id": 32,
+    "name": "Felix Murphy",
+    "email": "felix.murphy@company.com",
+    "department": "Sales",
+    "salary": 77000,
+    "joinDate": "2023-01-09",
+    "active": true,
+    "skills": ["Technical Sales", "Solution Selling", "Proposal Writing"]
+  },
+  {
+    "id": 33,
+    "name": "Gabriela Price",
+    "email": "gabriela.price@company.com",
+    "department": "Marketing",
+    "salary": 72000,
+    "joinDate": "2021-06-26",
+    "active": true,
+    "skills": ["Market Research", "Survey Design", "Statistical Analysis", "SPSS"]
+  },
+  {
+    "id": 34,
+    "name": "Hugo Bennett",
+    "email": "hugo.bennett@company.com",
+    "department": "Operations",
+    "salary": 70000,
+    "joinDate": "2022-08-14",
+    "active": true,
+    "skills": ["Vendor Management", "Contract Negotiation", "Cost Analysis"]
+  },
+  {
+    "id": 35,
+    "name": "Iris Coleman",
+    "email": "iris.coleman@company.com",
+    "department": "Design",
+    "salary": 68000,
+    "joinDate": "2023-03-27",
+    "active": true,
+    "skills": ["Web Design", "CSS", "HTML", "Responsive Design", "Accessibility"]
+  },
+  {
+    "id": 36,
+    "name": "Jason Torres",
+    "email": "jason.torres@company.com",
+    "department": "Engineering",
+    "salary": 94000,
+    "joinDate": "2020-01-13",
+    "active": true,
+    "skills": ["Kotlin", "Android Development", "Mobile Architecture", "Firebase"]
+  },
+  {
+    "id": 37,
+    "name": "Kimberly Ward",
+    "email": "kimberly.ward@company.com",
+    "department": "Finance",
+    "salary": 83000,
+    "joinDate": "2021-09-08",
+    "active": false,
+    "skills": ["Treasury Management", "Cash Flow Analysis", "Banking Relations"]
+  },
+  {
+    "id": 38,
+    "name": "Lucas Powell",
+    "email": "lucas.powell@company.com",
+    "department": "Sales",
+    "salary": 75000,
+    "joinDate": "2022-05-23",
+    "active": true,
+    "skills": ["Channel Sales", "Partner Management", "Revenue Operations"]
+  },
+  {
+    "id": 39,
+    "name": "Monica Stewart",
+    "email": "monica.stewart@company.com",
+    "department": "Marketing",
+    "salary": 71000,
+    "joinDate": "2023-07-16",
+    "active": true,
+    "skills": ["Content Marketing", "Copywriting", "Brand Voice", "Editorial Calendar"]
+  },
+  {
+    "id": 40,
+    "name": "Nathan Hughes",
+    "email": "nathan.hughes@company.com",
+    "department": "Operations",
+    "salary": 73000,
+    "joinDate": "2021-04-01",
+    "active": true,
+    "skills": ["Facilities Management", "Health & Safety", "Emergency Planning"]
+  },
+  {
+    "id": 41,
+    "name": "Ophelia Cox",
+    "email": "ophelia.cox@company.com",
+    "department": "Engineering",
+    "salary": 87000,
+    "joinDate": "2022-11-07",
+    "active": true,
+    "skills": ["Swift", "iOS Development", "Core Data", "SwiftUI", "App Store"]
+  },
+  {
+    "id": 42,
+    "name": "Peter Ward",
+    "email": "peter.ward@company.com",
+    "department": "Design",
+    "salary": 76000,
+    "joinDate": "2020-06-29",
+    "active": true,
+    "skills": ["Service Design", "Journey Mapping", "Workshop Facilitation"]
+  },
+  {
+    "id": 43,
+    "name": "Quincy Foster",
+    "email": "quincy.foster@company.com",
+    "department": "HR",
+    "salary": 64000,
+    "joinDate": "2023-05-11",
+    "active": true,
+    "skills": ["Employee Engagement", "Culture Development", "Change Management"]
+  },
+  {
+    "id": 44,
+    "name": "Ruby Sanders",
+    "email": "ruby.sanders@company.com",
+    "department": "Finance",
+    "salary": 80000,
+    "joinDate": "2021-08-19",
+    "active": true,
+    "skills": ["Credit Analysis", "Loan Processing", "Regulatory Compliance"]
+  },
+  {
+    "id": 45,
+    "name": "Sebastian Ross",
+    "email": "sebastian.ross@company.com",
+    "department": "Engineering",
+    "salary": 96000,
+    "joinDate": "2020-10-26",
+    "active": true,
+    "skills": ["Data Engineering", "Spark", "Hadoop", "Airflow", "ETL Pipelines"]
+  },
+  {
+    "id": 46,
+    "name": "Tara Perry",
+    "email": "tara.perry@company.com",
+    "department": "Sales",
+    "salary": 78000,
+    "joinDate": "2022-03-15",
+    "active": true,
+    "skills": ["Inside Sales", "Lead Qualification", "Sales Automation", "HubSpot"]
+  },
+  {
+    "id": 47,
+    "name": "Ulysses Butler",
+    "email": "ulysses.butler@company.com",
+    "department": "Marketing",
+    "salary": 69000,
+    "joinDate": "2023-09-04",
+    "active": true,
+    "skills": ["Event Marketing", "Trade Shows", "Sponsorship Management"]
+  },
+  {
+    "id": 48,
+    "name": "Victoria Reed",
+    "email": "victoria.reed@company.com",
+    "department": "Operations",
+    "salary": 74000,
+    "joinDate": "2021-12-22",
+    "active": true,
+    "skills": ["Business Analysis", "Requirements Gathering", "Process Mapping"]
+  },
+  {
+    "id": 49,
+    "name": "William Cook",
+    "email": "william.cook@company.com",
+    "department": "Engineering",
+    "salary": 92000,
+    "joinDate": "2022-01-30",
+    "active": false,
+    "skills": ["DevOps Engineering", "CI/CD", "Jenkins", "Monitoring", "Grafana"]
+  },
+  {
+    "id": 50,
+    "name": "Ximena Bailey",
+    "email": "ximena.bailey@company.com",
+    "department": "Design",
+    "salary": 72000,
+    "joinDate": "2023-08-28",
+    "active": true,
+    "skills": ["Interaction Design", "Prototyping", "Design Thinking", "Usability Testing"]
+  }
+]
