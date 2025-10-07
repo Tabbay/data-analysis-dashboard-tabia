@@ -1,29 +1,57 @@
 import { useState } from "react";
-import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
-import { Input } from "./ui/input";
-import { Button } from "./ui/button";
-import { set } from "date-fns";
+import { Card, CardContent, CardHeader, CardTitle } from "../ui/card";
+import { Input } from "../ui/input";
+import { Button } from "../ui/button";
 
 const COLORS = ["#f87171", "#60a5fa", "#34d399", "#fbbf24", "#a78bfa"];
 
 const Week3LiveDemo = () => {
-  const [count, setCount] = useState(0);
-  return (
-    <div>
-      <Button onClick={() => setCount(count + 1)}>  +1 </Button>
-    </div>
-  );
+const [name, setName] = useState('');
+const [greeting, setGreeting] = useState('');
+const [error, setError] = useState("");
 
+const handleSubmit = () => {
+    setError("");
+    if(!name.trim()){
+        setError("Please enter your name");
+        return;
+    }
+    if(name.trim().length < 2){
+        setError('Name must be at least 2 characters');
+        return;
+    }
+    setGreeting(`Hello, ${name.trim()}! Welcome to data analysis!`)
 }
 
+return (
+    <div>
+        {error && (
+            <p className="text-center text-red-600 text-sm">
+                {error}
+            </p>
+        )}
+        
+        {greeting && (
+            <p className="text-center text-green-600 font-medium">
+                {greeting}
+            </p>
+        )}
+        <Input 
+        placeholder="Enter your name"
+        value={name}
+        onChange={(e) => setName(e.target.value)}
+        />
+        <Button 
+        onClick={() => 
+            setGreeting(`Hello, ${name}!`)}
+        onSubmit={handleSubmit}
+        > Submit 
+        </Button>
+    </div>
+);
 
-
-
-
-
-
-
-
+}
+export default Week3LiveDemo;
 
 
 
@@ -141,5 +169,3 @@ const Week3LiveDemo = () => {
 //     </Card>
 //   );
 // };
-
-export default Week3LiveDemo;
