@@ -18,96 +18,6 @@ By the end of this week, you will:
 
 ---
 
-## 0:10 - 0:30: Concept Overview
-
-### JavaScript Array Methods
-
-#### 1. `.map()` - Transform every item
-```js
-const numbers = [1, 2, 3, 4, 5];
-const doubled = numbers.map(num => num * 2); // [2, 4, 6, 8, 10]
-
-// Real example: Extract ages from user data
-const users = [{name: 'Alice', age: 25}, {name: 'Bob', age: 30}];
-const ages = users.map(user => user.age); // [25, 30]
-```
-
-#### 2. `.filter()` - Keep only items that match condition
-```js
-const numbers = [1, 2, 3, 4, 5];
-const evenNumbers = numbers.filter(num => num % 2 === 0); // [2, 4]
-
-// Real example: Find adults
-const adults = users.filter(user => user.age >= 18);
-```
-
-
-#### 3. `.reduce()` - Combine all items into one result
-The `reduce` method lets you process every item in an array and combine them into a single result. It takes two arguments:
-
-1. **Callback function:**
-  - **Accumulator** (e.g., `total`): The running result so far.
-  - **Current value** (e.g., `num`): The current item from the array.
-  - **Current index** (optional): The index of the current item.
-  - **Original array** (optional): The array being processed.
-  Example:
-  ```js
-  (accumulator, currentValue, index, array) => { ... }
-  ```
-2. **Initial value:**
-  The starting value for the accumulator (e.g., `0` for a sum).
-
-**How it works:**
-- The callback function is called for every item in the array.
-- The accumulator starts with the initial value you provide.
-- On each run, the callback receives the accumulator and the current item, and returns the new accumulator value.
-- After all items are processed, `reduce` returns the final accumulator.
-
-**Example:**
-```js
-const numbers = [1, 2, 3, 4, 5];
-const sum = numbers.reduce((total, num) => total + num, 0); // 15
-// total starts at 0, then adds each number in turn
-```
-
-// Real example: Calculate total sales
-const sales = [100, 250, 175, 300];
-const totalSales = sales.reduce((total, sale) => total + sale, 0); // 825
-```
-
-### Statistical Calculations
-```js
-const scores = [85, 92, 78, 96, 88, 94, 82];
-const sum = scores.reduce((total, score) => total + score, 0);
-const average = sum / scores.length;
-const maximum = Math.max(...scores);
-const minimum = Math.min(...scores);
-const count = scores.length;
-```
-
-### Error Handling & Edge Cases
-```js
-// Empty array
-const empty = [];
-const average = empty.reduce((a, b) => a + b, 0) / empty.length; // NaN
-
-// Non-numeric data
-const mixed = [1, 'hello', 3, null, 5];
-const sum = mixed.reduce((a, b) => a + b, 0); // "1hello3null5"
-
-// Missing values
-const withMissing = [1, 2, undefined, 4, 5];
-
-// How to handle gracefully
-if (data.length === 0) {
-  return { error: 'No data to analyze' };
-}
-const numbers = data.filter(item => typeof item === 'number' && !isNaN(item));
-const average = numbers.length > 0 ? sum / numbers.length : 0;
-```
-
----
-
 ## Step-by-Step Example: NameInput Solution
 
 **Simpler Example: Basic Name Input**
@@ -198,6 +108,93 @@ const handleClear = () => {
 Try changing the name and see what happens. Enter a short name to see the error, and a valid name to see the greeting. Click Clear to reset!
 
 ---
+## 0:10 - 0:30: Concept Overview
+
+### JavaScript Array Methods
+
+#### 1. `.map()` - Transform every item
+```js
+const numbers = [1, 2, 3, 4, 5];
+const doubled = numbers.map(num => num * 2); // [2, 4, 6, 8, 10]
+
+// Real example: Extract ages from user data
+const users = [{name: 'Alice', age: 25}, {name: 'Bob', age: 30}];
+const ages = users.map(user => user.age); // [25, 30]
+```
+
+#### 2. `.filter()` - Keep only items that match condition
+```js
+const numbers = [1, 2, 3, 4, 5];
+const evenNumbers = numbers.filter(num => num % 2 === 0); // [2, 4]
+
+// Real example: Find adults
+const adults = users.filter(user => user.age >= 18);
+```
+
+
+#### 3. `.reduce()` - Combine all items into one result
+The `reduce` method lets you process every item in an array and combine them into a single result. It takes two arguments:
+
+1. **Callback function:**
+  - **Accumulator** (e.g., `total`): The running result so far.
+  - **Current value** (e.g., `num`): The current item from the array.
+  - **Current index** (optional): The index of the current item.
+  - **Original array** (optional): The array being processed.
+  Example:
+  ```js
+  (accumulator, currentValue, index, array) => { ... }
+  ```
+2. **Initial value:**
+  The starting value for the accumulator (e.g., `0` for a sum).
+
+**How it works:**
+- The callback function is called for every item in the array.
+- The accumulator starts with the initial value you provide.
+- On each run, the callback receives the accumulator and the current item, and returns the new accumulator value.
+- After all items are processed, `reduce` returns the final accumulator.
+
+**Example:**
+```js
+const numbers = [1, 2, 3, 4, 5];
+const sum = numbers.reduce((total, num) => total + num, 0); // 15
+// total starts at 0, then adds each number in turn
+```
+
+// Real example: Calculate total sales
+const sales = [100, 250, 175, 300];
+const totalSales = sales.reduce((total, sale) => total + sale, 0); // 825
+```
+
+### Statistical Calculations
+```js
+const scores = [85, 92, 78, 96, 88, 94, 82];
+const sum = scores.reduce((total, score) => total + score, 0);
+const average = sum / scores.length;
+const maximum = Math.max(...scores);
+const minimum = Math.min(...scores);
+const count = scores.length;
+```
+
+### Error Handling & Edge Cases
+```js
+// Empty array
+const empty = [];
+const average = empty.reduce((a, b) => a + b, 0) / empty.length; // NaN
+
+// Non-numeric data
+const mixed = [1, 'hello', 3, null, 5];
+const sum = mixed.reduce((a, b) => a + b, 0); // "1hello3null5"
+
+// Missing values
+const withMissing = [1, 2, undefined, 4, 5];
+
+// How to handle gracefully
+if (data.length === 0) {
+  return { error: 'No data to analyze' };
+}
+const numbers = data.filter(item => typeof item === 'number' && !isNaN(item));
+const average = numbers.length > 0 ? sum / numbers.length : 0;
+```
 
 ---
 
