@@ -1,4 +1,4 @@
-import Week3LiveDemo from '../components/Week3LiveDemo';
+import Week3LiveDemo from '../components/Demos/Week3LiveDemo';
 
 const Week3Live = () => {
   return (

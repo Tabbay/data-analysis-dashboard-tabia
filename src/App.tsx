@@ -15,6 +15,7 @@ import NotFound from "./pages/NotFound"; // 🚫 404 error page
 import DemoCounter from "./pages/DemoCounter"; // 🎓 Instructor demo page
 import LiveSession from "./pages/LiveSession"; // 🎮 Live session playground
 import Week3Live from "./pages/Week3Live"; // 🎯 Week 3 interactive components playground
+import Week4LiveDemo from "./components/Demos/Week4LiveDemo"; 
 
 // Create a client for managing data queries (don't worry about this yet!)
 const queryClient = new QueryClient();
@@ -47,9 +48,9 @@ function App() {
           {/* 🎯 Week 3 live playground - interactive components & user input */}
           <Route path="/week3-live" element={<Week3Live />} />
           
-          {/* �🔧 WEEK 2+: Add new routes here as you build more pages */}
-          {/* Example: <Route path="/dashboard" element={<Dashboard />} /> */}
-          
+          {/* �🔧 WEEK 4+ */}
+          <Route path="/week4-live" element={<Week4LiveDemo />} />
+
           {/* ⚠️ Catch-all route - shows 404 for unknown URLs */}
           <Route path="*" element={<NotFound />} />
         </Routes>
