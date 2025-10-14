@@ -16,6 +16,7 @@ import DemoCounter from "./pages/DemoCounter"; // 🎓 Instructor demo page
 import LiveSession from "./pages/LiveSession"; // 🎮 Live session playground
 import Week3Live from "./pages/Week3Live"; // 🎯 Week 3 interactive components playground
 import Week4LiveDemo from "./components/Demos/Week4LiveDemo"; 
+import Week5Live from "./components/Demos/Week5Live";
 
 // Create a client for managing data queries (don't worry about this yet!)
 const queryClient = new QueryClient();
@@ -50,6 +51,9 @@ function App() {
           
           {/* �🔧 WEEK 4+ */}
           <Route path="/week4-live" element={<Week4LiveDemo />} />
+
+          {/* Week 5 live playground - interactive components & user input */}
+          <Route path="/week5-live" element={<Week5Live />} />
 
           {/* ⚠️ Catch-all route - shows 404 for unknown URLs */}
           <Route path="*" element={<NotFound />} />
