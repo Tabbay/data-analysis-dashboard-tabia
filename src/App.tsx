@@ -22,12 +22,7 @@ import Week5Live from "./components/Demos/Week5Live";
 const queryClient = new QueryClient();
 
 // 🚀 Main App Component - This wraps your entire application
-<<<<<<< HEAD
-export const App = () => (
-=======
-function App() {
-  return (
->>>>>>> upstream/main
+const App = () => (
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>
       {/* These Toaster components handle popup notifications */}
@@ -62,6 +57,5 @@ function App() {
     </TooltipProvider>
   </QueryClientProvider>
   );
-}
 
 export default App;
