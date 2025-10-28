@@ -1,0 +1,7 @@
+Name,Value,Date,Category
+Large Positive,999999999,2024-01-01,Extreme
+Large Negative,-999999999,2024-01-02,Extreme
+Tiny Decimal,0.00000001,2024-01-03,Extreme
+Scientific,1.5e+10,2024-01-04,Extreme
+Zero,0,2024-01-05,Normal
+Mixed,123456.789,2024-01-06,Normal

@@ -1,0 +1,6 @@
+Name,Value,Date,Category
+John,42,2024-01-01,A
+Jane,Missing quote,2024-01-02,B
+Bob,56,2024-01-03,C,Extra,Columns
+"Unclosed quote,78,2024-01-04,D
+Normal,90,2024-01-05,E
