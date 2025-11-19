@@ -25,12 +25,8 @@ import BrokenDemoSolution from "./pages/BrokenDemoSolution";
 const queryClient = new QueryClient();
 
 // 🚀 Main App Component - This wraps your entire application
-<<<<<<< HEAD
-export const App = () => (
-=======
 function App() {
   return (
->>>>>>> upstream/main
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>
       {/* These Toaster components handle popup notifications */}
